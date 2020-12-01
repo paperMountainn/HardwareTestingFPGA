@@ -1,5 +1,5 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/admin/Documents/GitHub/SUTD_ISTD_50.002_1D_CI13_2/CheckIOsElectronicGame/constraint/newConstraints.xdc rfile:../../../../../../constraint/newConstraints.xdc id:1} [current_design]
-set_property SRC_FILE_INFO {cfile:C:/Users/admin/Documents/GitHub/SUTD_ISTD_50.002_1D_CI13_2/CheckIOsElectronicGame/work/constraint/custom.xdc rfile:../../../../../constraint/custom.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/admin/Documents/GitHub/HardwareTestingFPGA/CheckIOsElectronicGame/constraint/newConstraints.xdc rfile:../../../../../../constraint/newConstraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/admin/Documents/GitHub/HardwareTestingFPGA/CheckIOsElectronicGame/work/constraint/custom.xdc rfile:../../../../../constraint/custom.xdc id:2} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 =set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
 set_property src_info {type:XDC file:2 line:3 export:INPUT save:INPUT read:READ} [current_design]

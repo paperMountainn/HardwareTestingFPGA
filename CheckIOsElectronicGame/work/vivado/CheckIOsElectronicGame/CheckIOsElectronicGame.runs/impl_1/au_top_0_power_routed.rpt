@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Mon Nov 30 16:11:09 2020
+| Date             : Tue Dec  1 12:49:13 2020
 | Host             : DESKTOP-3M4I0EQ running 64-bit major release  (build 9200)
 | Command          : report_power -file au_top_0_power_routed.rpt -pb au_top_0_power_summary_routed.pb -rpx au_top_0_power_routed.rpx
 | Design           : au_top_0
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.717        |
+| Total On-Chip Power (W)  | 0.706        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.644        |
+| Dynamic (W)              | 0.632        |
 | Device Static (W)        | 0.073        |
 | Effective TJA (C/W)      | 4.9          |
-| Max Ambient (C)          | 81.5         |
-| Junction Temperature (C) | 28.5         |
+| Max Ambient (C)          | 81.6         |
+| Junction Temperature (C) | 28.4         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       48 |       --- |             --- |
+| Slice Logic    |    <0.001 |       49 |       --- |             --- |
+|   LUT as Logic |    <0.001 |        4 |     20800 |            0.02 |
 |   CARRY4       |    <0.001 |        7 |      8150 |            0.09 |
 |   Register     |    <0.001 |       32 |     41600 |            0.08 |
-|   LUT as Logic |    <0.001 |        3 |     20800 |            0.01 |
 |   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.001 |       41 |       --- |             --- |
-| I/O            |     0.642 |      114 |       170 |           67.06 |
+| Signals        |     0.001 |       42 |       --- |             --- |
+| I/O            |     0.630 |      114 |       170 |           67.06 |
 | Static Power   |     0.073 |          |           |                 |
-| Total          |     0.717 |          |           |                 |
+| Total          |     0.706 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,8 +72,8 @@ Table of Contents
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Vccint    |       1.000 |     0.013 |       0.002 |      0.011 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.036 |       0.024 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.183 |       0.182 |      0.001 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.036 |       0.023 |      0.013 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.179 |       0.178 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -140,7 +140,7 @@ Table of Contents
 +----------+-----------+
 | Name     | Power (W) |
 +----------+-----------+
-| au_top_0 |     0.644 |
+| au_top_0 |     0.632 |
 +----------+-----------+
 
 

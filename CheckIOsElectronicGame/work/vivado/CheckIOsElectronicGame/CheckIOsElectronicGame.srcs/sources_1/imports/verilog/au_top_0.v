@@ -189,9 +189,9 @@ module au_top_0 (
         blink[30+0-:1] = 1'h0;
         blink[31+0-:1] = 1'h0;
         blink[32+0-:1] = 1'h0;
-        blink[33+0-:1] = 1'h0;
-        blink[34+0-:1] = 1'h0;
-        blink[35+0-:1] = 1'h0;
+        blink[33+0-:1] = 1'h1;
+        blink[34+0-:1] = 1'h1;
+        blink[35+0-:1] = 1'h1;
         blink[36+0-:1] = 1'h0;
         blink[37+0-:1] = 1'h0;
         blink[38+0-:1] = 1'h0;
@@ -302,7 +302,7 @@ module au_top_0 (
         blink[30+0-:1] = 1'h1;
         blink[31+0-:1] = 1'h1;
         blink[32+0-:1] = 1'h1;
-        blink[33+0-:1] = 1'h1;
+        blink[33+0-:1] = 1'h0;
         blink[34+0-:1] = 1'h1;
         blink[35+0-:1] = 1'h1;
         blink[36+0-:1] = 1'h1;

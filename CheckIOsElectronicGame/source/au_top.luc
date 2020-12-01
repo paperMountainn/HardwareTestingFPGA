@@ -68,6 +68,8 @@ module au_top (
     blink[29] = 0;
     blink[30] = 0;
     blink[31] = 0;
+    
+    //bank B
     blink[32] = 0;
     blink[33] = 0;
     blink[34] = 0;
@@ -197,9 +199,11 @@ module au_top (
         blink[29] = 0;
         blink[30] = 0;
         blink[31] = 0;
+        
+        //bank B
         blink[32] = 0;
-        blink[33] = 0;
-        blink[34] = 0;
+        blink[33] = 1;
+        blink[34] = 1;
         blink[35] = 0;
         blink[36] = 0;
         blink[37] = 0;
@@ -314,10 +318,13 @@ module au_top (
         blink[29] = 1;
         blink[30] = 1;
         blink[31] = 1;
+        
+        //bank B
         blink[32] = 1;
-        blink[33] = 1;
+        blink[33] = 0;
         blink[34] = 1;
         blink[35] = 1;
+        
         blink[36] = 1;
         blink[37] = 1;
         blink[38] = 1;
